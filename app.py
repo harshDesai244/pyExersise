@@ -7,7 +7,7 @@ headers = {
 }
 params = {
     "term": "shop",
-    "location": "Hamburg"
+    "location": "Braunschweig"
 }
 responce = requests.get(url, headers=headers, params=params)
 businesses = responce.json()["businesses"]
